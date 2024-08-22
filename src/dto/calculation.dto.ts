@@ -19,3 +19,17 @@ export class CreateCalculationDto {
   @IsNumber()
   DBQ: number;
 }
+export class entryPointDto {
+  @IsNotEmpty()
+  @IsNumber()
+  L: number;
+  @IsNotEmpty()
+  @IsNumber()
+  D: number;
+  @IsNotEmpty()
+  @IsNumber()
+  H: number;
+  @IsNotEmpty()
+  @IsNumber()
+  O: number;
+}
